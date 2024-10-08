@@ -13,7 +13,7 @@ class CreateUser(UserBase):
     password: bytes
 
 
-class User(UserBase):
+class ReadUser(UserBase):
     model_config = ConfigDict(from_attributes=True)
     id: int
 

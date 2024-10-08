@@ -14,5 +14,5 @@ async def get_user(
     if user:
         return user
     raise HTTPException(
-        status_code=status.HTTP_404_NOT_FOUND, detail="User not found"
+        status_code=status.HTTP_404_NOT_FOUND, detail="ReadUser not found"
     )
